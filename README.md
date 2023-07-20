@@ -1,4 +1,3 @@
 # Useful Git Commands
 
-- Disconnect local branch from origin
-    - `git branch --unset-upstream`
+- Disconnect local branch from origin: `git branch --unset-upstream`
