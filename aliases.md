@@ -10,7 +10,7 @@ Merge `origin/main` into current branch
 alias.merge-main=!git fetch origin main && git merge origin/main
 ```
 
-Reset current branch to origin/main
+Reset current branch to `origin/main`
 ```
 git config --global alias.reset-main '!f() { git fetch origin main && git reset --hard origin/main; }; f'
 ```
